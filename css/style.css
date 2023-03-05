@@ -140,6 +140,9 @@ body{
     background: rgb(250, 226, 235);
     padding: 10px 0;
 }
+.footer p{
+    margin: 5px 0;
+}
 /* 美食页面 */
 .food{
     width: 960px;
