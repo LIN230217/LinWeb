@@ -29,22 +29,24 @@
         <div class="line"></div>
     </div>
     <div class="liuyan">
-        <form>
-            <p>名字：</p>
-            <input type="text" placeholder="请输入你的名字">
-            <p>联系方式：</p>
-            <input type="text" placeholder="请输入你的联系方式">
-            <p>留言：</p>
-            <textarea name="" id="" cols="60" rows="10" placeholder="请输入你要留言的内容"></textarea>
-            <button>提交</button>
-        </form>
+        <div id="tcomment"></div>
+<script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://twikoo.saop.cc', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
     </div>
     <div class="footer">
         <p>Copyright©XXX</p>
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        <p>本站总访问量<span id="busuanzi_value_site_pv"></span></p>
         <p>访客数<span id="busuanzi_value_site_uv"></span></p>
         <p>总阅读量<span id="busuanzi_value_page_pv"></span></p>
+        <p>本站总访问量<span id="busuanzi_value_site_pv"></span></p>
     </div>
 </body>
 </html>
