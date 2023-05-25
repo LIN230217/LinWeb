@@ -184,21 +184,6 @@ body{
     width: 1000px;
     margin: auto;
 }
-/* .liuyan input{
-    outline: none;
-    display: block;
-    width: 300px;
-    height: 35px;
-    margin-left: 250px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-}
-.liuyan textarea{
-    padding: 10px;
-    outline: none;
-    width: 400px;
-    margin-left: 250px;    
-} */
 .liuyan button{
     display: block;
     border: none;
@@ -211,10 +196,6 @@ body{
     margin-top: 20px;
     margin-left: 400px;
 }
-/* .liuyan p{
-    margin-left: 250px;
-    padding-bottom: 10px;
-} */
 
 #twikoo {
     padding: 20px;
